@@ -1,0 +1,56 @@
+img{
+  border-radius: 15px;
+  width: 250px;
+  height: 350px;
+}
+
+
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+
+.Shop{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+
+.item{
+  justify-self: center;
+  text-align: center;
+  transition: border, width 0.1s;
+  transition-timing-function: linear;
+  padding: 20px;
+  width: 260px;
+}
+
+
+.Margo{
+  font-size: 40px;
+}
+
+
+.Gosha-boss{
+  display: grid;
+  justify-content: center;
+  margin: 50px;
+}
+
+
+.Image-1{
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.item:hover{ 
+  width: 300px;
+  border-radius: 15px;
+  border: solid black 1px;
+}
+
